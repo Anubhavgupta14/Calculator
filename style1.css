@@ -1,0 +1,57 @@
+body{
+    background-image: url(https://raw.githubusercontent.com/Anubhavgupta14/Calculator/main/bg.jpg);
+    background-size: cover;
+    height: 10vh;
+    scroll-behavior: smooth;
+    background-repeat: none;
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    color: rgb(10, 73, 247);
+    font-size: 45px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    color: white;
+}
+.container
+{
+    text-align: center;
+    margin-top: 300px;
+}
+table
+{
+    margin: auto;
+
+
+}
+input{
+    font-size: 33px;
+
+
+}
+button{
+    font-size: 25px;
+    height: 60px;
+    width: 101px;
+    color: white;
+    border-radius: 15px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    /*background-color: rgb(163, 240, 62);*/
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+p{
+    font-size: 25px;
+    color: yellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.dis{
+    display: inline-block;
+}
